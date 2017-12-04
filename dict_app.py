@@ -1,5 +1,5 @@
 import json #imported json lib
-from difflib import get_close_matches
+from difflib import get_close_matches #imported get_close_matches from difflib
 
 data = json.load(open("data.json")) #Opened data.json file and loaded it into a 'data' variable
 
